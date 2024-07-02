@@ -551,6 +551,19 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
 }
+#jqIcon::before {
+  background-image: url('https://www.mobilizecloud.com/wp-content/uploads/2019/08/jquery-icon-png-8.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bsIcon::before {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUXII--B0hs93D1sutowxKzVjhaRSzXE0i-jBVZiBnrbDxXyft');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
 
 .skills .progress {
   height: 60px;
