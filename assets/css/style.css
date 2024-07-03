@@ -41,7 +41,10 @@ a:hover {
   color: #067ded;
   text-decoration: none;
 }
-
+mark {
+  background:none;
+  color: #51dcdb;
+}
 h1,
 h2,
 h3,
@@ -339,6 +342,7 @@ h6 {
 }
 
 #hero p span {
+  font-family: 'Pretendard-Regular';
   color: #0563bb;
   letter-spacing: 1px;
 }
@@ -398,7 +402,7 @@ section {
   padding-bottom: 30px;
 }
 .section-title-ul{
-  background-color: rgba(0,0,0,.65);
+  background-color: rgba(0,0,0,.6);
   color: white;
   border-radius: 15px;
   margin: auto;
