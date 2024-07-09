@@ -2,7 +2,12 @@
 @import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Beiruti:wght@200..900&display=swap');
-
+@font-face {
+  font-family: 'NotoSerifKR';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: "Cafe24Ssurround";
   src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff")
@@ -24,6 +29,10 @@
     format("woff2");
   font-weight: normal;
   font-style: normal;
+}
+
+.font-noto {
+  font-family: 'NotoSerifKR';
 }
 
 /*--------------------------------------------------------------
@@ -55,9 +64,13 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 h2 {
-  font-family: "Beiruti", serif;
+  font-family: "NotoSerifKR", serif;
   font-weight: bold;
   font-size: 40px;
+}
+
+h2 i {
+  font-size: 30px;
 }
 /*--------------------------------------------------------------
 # Back to top button
