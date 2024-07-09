@@ -681,7 +681,6 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 35px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
   position: relative;
 }
 
@@ -726,7 +725,7 @@ section {
   left: -24px;
   top: -13px;
   background: white;
-  border: 2px solid #0563bb;
+  border: none;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
