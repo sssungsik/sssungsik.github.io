@@ -710,6 +710,7 @@ section {
 .resume .resume-item ul li {
   padding-bottom: 10px;
   font-size: 13px;
+  font-family: 'Pretendard-Regular';
 }
 
 .resume .resume-item:last-child {
