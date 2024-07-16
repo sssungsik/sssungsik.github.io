@@ -2,6 +2,7 @@
 @import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Beiruti:wght@200..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/couture');
 @font-face {
   font-family: 'NotoSerifKR';
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
@@ -30,9 +31,93 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Couture Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Couture Bold'), url('couture-bld.woff') format('woff');
+}
+@font-face {
+  font-family: 'Couture Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Couture Bold Italic'), url('couture-bldit.woff') format('woff');
+}
+@font-face {
+  font-family: "ABChanel Corpo Regular";
+  src: url("https://db.onlinewebfonts.com/t/5fd740bac1abfb826fb7e35ae963efc9.eot");
+  src: url("https://db.onlinewebfonts.com/t/5fd740bac1abfb826fb7e35ae963efc9.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/5fd740bac1abfb826fb7e35ae963efc9.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/5fd740bac1abfb826fb7e35ae963efc9.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/5fd740bac1abfb826fb7e35ae963efc9.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/5fd740bac1abfb826fb7e35ae963efc9.svg#ABChanel Corpo Regular")format("svg");
+}
+@font-face {
+  font-family: "abchanel-2022";
+  src: url("https://fonts.chanel.com/k/ABChanel2022-ExtraLight.woff2") format("woff2"),url("https://fonts.chanel.com/k/ABChanel2022-ExtraLight.woff") format("woff"),url("https://fonts.chanel.com/k/ABChanel2022-ExtraLight.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 200
+}
+
+@font-face {
+  font-family: "abchanel-2022";
+  src: url("https://fonts.chanel.com/k/ABChanel2022-ExtraLightItalic.woff2") format("woff2"),url("https://fonts.chanel.com/k/ABChanel2022-ExtraLightItalic.woff") format("woff"),url("https://fonts.chanel.com/k/ABChanel2022-ExtraLightItalic.ttf") format("ttf");
+  font-style: italic;
+  font-weight: 200
+}
+
+@font-face {
+  font-family: "abchanel-2022";
+  src: url("https://fonts.chanel.com/k/ABChanel2022-Light.woff2") format("woff2"),url("https://fonts.chanel.com/k/ABChanel2022-Light.woff") format("woff"),url("https://fonts.chanel.com/k/ABChanel2022-Light.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 300
+}
+
+@font-face {
+  font-family: "abchanel-2022";
+  src: url("https://fonts.chanel.com/k/ABChanel2022-LightItalic.woff2") format("woff2"),url("https://fonts.chanel.com/k/ABChanel2022-LightItalic.woff") format("woff"),url("https://fonts.chanel.com/k/ABChanel2022-LightItalic.ttf") format("ttf");
+  font-style: italic;
+  font-weight: 300
+}
+
+@font-face {
+  font-family: "abchanel-2022";
+  src: url("https://fonts.chanel.com/k/ABChanel2022-Regular.woff2") format("woff2"),url("https://fonts.chanel.com/k/ABChanel2022-Regular.woff") format("woff"),url("https://fonts.chanel.com/k/ABChanel2022-Regular.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 400
+}
+
+@font-face {
+  font-family: "abchanel-2022";
+  src: url("https://fonts.chanel.com/k/ABChanel2022-Italic.woff2") format("woff2"),url("https://fonts.chanel.com/k/ABChanel2022-Italic.woff") format("woff"),url("https://fonts.chanel.com/k/ABChanel2022-Italic.ttf") format("ttf");
+  font-style: italic;
+  font-weight: 400
+}
+
+@font-face {
+  font-family: "abchanel-2022";
+  src: url("https://fonts.chanel.com/k/ABChanel2022-SemiBold.woff2") format("woff2"),url("https://fonts.chanel.com/k/ABChanel2022-SemiBold.woff") format("woff"),url("https://fonts.chanel.com/k/ABChanel2022-SemiBold.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 600
+}
+
+@font-face {
+  font-family: "abchanel-2022";
+  src: url("https://fonts.chanel.com/k/ABChanel2022-SemiBoldItalic.woff2") format("woff2"),url("https://fonts.chanel.com/k/ABChanel2022-SemiBoldItalic.woff") format("woff"),url("https://fonts.chanel.com/k/ABChanel2022-SemiBoldItalic.ttf") format("ttf");
+  font-style: italic;
+  font-weight: 600
+}
+
 
 .font-noto {
   font-family: 'NotoSerifKR';
+}
+
+.font-cou {
+  font-family: 'Couture Bold';
+}
+.font-abcha{
+  font-family: "abchanel-2022";
 }
 
 /*--------------------------------------------------------------
@@ -64,7 +149,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 h2 {
-  font-family: "NotoSerifKR", serif;
+  font-family: "abchanel-2022";
   font-weight: bold;
   font-size: 40px;
 }
@@ -361,7 +446,7 @@ h2 i {
 }
 
 #hero p span {
-  font-family: 'Pretendard-Regular';
+  font-family: "abchanel-2022";
   color: #0563bb;
   letter-spacing: 1px;
 }
@@ -456,29 +541,16 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: black;
 }
 
-.section-title h2::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #ddd;
-  bottom: 1px;
-  left: calc(50% - 60px);
-}
 
 .section-title h2::after {
   content: "";
-  position: absolute;
   display: block;
-  width: 40px;
-  height: 3px;
-  background: #0563bb;
-  bottom: 0;
-  left: calc(50% - 20px);
+  width: 80px; /* 밑줄 길이 조절 */
+  border-bottom: 3px solid #000000;
+  margin: 15px auto;
 }
 
 .section-title p {
