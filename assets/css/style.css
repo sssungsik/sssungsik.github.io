@@ -141,10 +141,7 @@ a:hover {
   color: #067ded;
   text-decoration: none;
 }
-mark {
-  background:none;
-  color: #51dcdb;
-}
+
 h1,
 h3,
 h4,
@@ -583,6 +580,17 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#about {
+  h4 {
+    font-family: Pretendard-Regular;
+  }
+  mark {
+    background: none;
+    display: inline;
+    box-shadow: inset 0 -10px 0 rgba(255, 255, 0, 0.5);
+  }
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
