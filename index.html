@@ -35,6 +35,8 @@
       rel="stylesheet"
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -50,32 +52,32 @@
         <ul>
           <li>
             <a href="#hero" class="nav-link scrollto active"
-              ><i class="bx bx-home"></i> <span>홈</span></a
+              ><i class="bi bi-house-door-fill"></i> <span>홈</span></a
             >
           </li>
           <li>
             <a href="#about" class="nav-link scrollto"
-              ><i class="bx bx-user"></i> <span>자기소개</span></a
+              ><i class="bi bi-person-fill"></i> <span>자기소개</span></a
             >
           </li>
           <li>
             <a href="#resume" class="nav-link scrollto"
-              ><i class="bx bx-file-blank"></i> <span>능력</span></a
+              ><i class="bi bi-star-fill"></i> <span>능력</span></a
             >
           </li>
           <li>
             <a href="#portfolio" class="nav-link scrollto"
-              ><i class="bx bx-book-content"></i> <span>프로젝트</span></a
+              ><i class="bi bi-file-text-fill"></i> <span>프로젝트</span></a
             >
           </li>
           <li>
             <a href="#services" class="nav-link scrollto"
-              ><i class="bx bx-server"></i> <span>교육</span></a
+              ><i class="bi bi-mortarboard-fill"></i> <span>교육</span></a
             >
           </li>
           <li>
             <a href="#contact" class="nav-link scrollto"
-              ><i class="bx bx-envelope"></i> <span>연락처</span></a
+              ><i class="bi bi-telephone-fill"></i> <span>연락처</span></a
             >
           </li>
         </ul>
@@ -86,8 +88,12 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center">
+      <div class="bg-video">
+      <video class="bg-video__content" autoplay muted loop>
+        <source src="assets/video/intro.mp4" type="video/mp4" />
+      </video>
+      </div>
       <div class="container" data-aos="zoom-in" data-aos-delay="100">
-        <h3 style="text-align: center">(개발 중)</h3>
         <img src="./assets/img/me.JPEG" class="me" />
         <h1>최성식</h1>
         <p>I'm <span class="typed" data-typed-items="Developer., 개발자."></span></p>

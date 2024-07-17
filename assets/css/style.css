@@ -127,9 +127,10 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'GmarketSans',"Open Sans", sans-serif;
+  font-family: 'Pretendard-Regular',"Open Sans", sans-serif;
   color: #272829;
 }
+
 
 a {
   color: #0563bb;
@@ -149,7 +150,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "abchanel-2022", sans-serif;
 }
 h2 {
   font-family: "abchanel-2022";
@@ -264,9 +265,7 @@ h2 i {
 }
 
 @media (min-width: 991px) {
-  #main {
-    margin-left: 100px;
-  }
+
 }
 
 /*--------------------------------------------------------------
@@ -295,13 +294,13 @@ h2 i {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: black;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: rgba(255,255,255,0.3);
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -310,7 +309,7 @@ h2 i {
 
 .nav-menu a i,
 .nav-menu a:focus i {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .nav-menu a span,
@@ -338,7 +337,7 @@ h2 i {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #0563bb;
+  background: rgba(0,0,0,.6);
 }
 
 .nav-menu a:hover span,
@@ -405,11 +404,28 @@ h2 i {
   
   position: relative;
 }
+
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.8;
+}
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
 .me {
   width: 30%;
   margin: 10%;
-  border-radius: 40%;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  filter: opacity(0.88);
 }
 @media (min-width: 992px) {
   #hero {
@@ -437,21 +453,25 @@ h2 i {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: white;
   font-family: 'Pretendard-Regular';
+  letter-spacing: 6px;
 }
 
 #hero p {
-  color: #45505b;
+  color: white;
   margin: 15px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Pretendard-Regular';
+  letter-spacing: 6px;
+  filter: drop-shadow(-7px 12px 2px rgba(0, 0, 0, 0.7));
 }
 
 #hero p span {
-  font-family: "abchanel-2022";
-  color: #0563bb;
-  letter-spacing: 1px;
+  font-family: 'Pretendard-Regular';
+  color: white;
+  letter-spacing: 6px;
+
 }
 
 #hero .social-links {
@@ -551,7 +571,7 @@ section {
 .section-title h2::after {
   content: "";
   display: block;
-  width: 80px; /* 밑줄 길이 조절 */
+  width: 120px; /* 밑줄 길이 조절 */
   border-bottom: 3px solid #000000;
   margin: 15px auto;
 }
@@ -723,6 +743,16 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
+#resume {
+  background-color: black;
+  color: white;
+  h2, h2::after{
+    color: white;
+    border-color: white;
+  }
+
+}
 #project1Ul {
   margin-left: 30%; 
   margin-top: 3%;
@@ -747,7 +777,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: white;
 }
 .col-lg-6 {
   padding-left: 50px;
@@ -764,8 +794,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: white;
   margin-bottom: 10px;
 }
 
