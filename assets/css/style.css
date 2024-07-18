@@ -126,7 +126,6 @@ body {
   color: #272829;
 }
 
-
 a {
   color: #0563bb;
   text-decoration: none;
@@ -590,6 +589,22 @@ section {
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 500;
   }
+  abbr[title]:hover::after {
+    content:  attr(title);
+    position: absolute;
+    width: 80px;
+    color:black;
+    transition: 0.5s;
+
+
+  }
+
+  abbr{
+    text-decoration: none;
+    position: relative;
+    cursor: default;
+  }
+
 }
 
 .about .content h3 {
@@ -756,6 +771,12 @@ section {
   h2, h2::after{
     color: white;
     border-color: white;
+  }
+  h3 {
+    display: inline-block;
+  }
+  .frontend{
+    box-shadow: inset 0 -10px 0 pink;
   }
 
 }
