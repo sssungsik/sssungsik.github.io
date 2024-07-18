@@ -578,7 +578,6 @@ section {
   }
   h3 {
     color: black;
-    text-align: center;
   }
   mark {
     background: none;
@@ -592,17 +591,42 @@ section {
   abbr[title]:hover::after {
     content:  attr(title);
     position: absolute;
-    width: 80px;
+    width: 120px;
     color:black;
     transition: 0.5s;
-
-
+  }
+  .content {
+    text-align: center;
+    .detail {
+      text-align: left;
+      display: inline-block;
+      border: 2px solid black;
+      padding: 5px;
+      background-image: url("/assets/img/selfie.jpg");
+      isolation: isolate;
+      position: relative;
+      background-size: cover;
+      p {
+        font-size: 18px;
+      }
+    }
+    .detail::after{
+      content: "";
+      background: white;
+      position: absolute;
+      inset : 0;
+      opacity: 0.9;
+      z-index: -1;
+      }
   }
 
   abbr{
     text-decoration: none;
     position: relative;
     cursor: default;
+  }
+  i {
+    letter-spacing: 10px;
   }
 
 }
@@ -776,7 +800,13 @@ section {
     display: inline-block;
   }
   .frontend{
-    box-shadow: inset 0 -10px 0 pink;
+    box-shadow: inset 0 -15px 0 rgba(139, 0, 0, 0.6);
+  }
+  .backend{
+    box-shadow: inset 0 -15px 0 rgba(0, 0, 139, 0.6);
+  }
+  .database{
+    box-shadow: inset 0 -15px 0 rgba(0, 100, 0, 0.6);
   }
 
 }
