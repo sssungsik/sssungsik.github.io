@@ -577,6 +577,10 @@ section {
     font-family: Pretendard-Regular;
     font-weight: bold;
   }
+  h3 {
+    color: black;
+    text-align: center;
+  }
   mark {
     background: none;
     display: inline;
