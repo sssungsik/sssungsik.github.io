@@ -413,7 +413,7 @@ h2 i {
   width: 30%;
   margin: 10%;
   border-radius: 50%;
-  filter: opacity(0.88);
+  filter: opacity(0.9);
 }
 @media (min-width: 992px) {
   #hero {
@@ -518,7 +518,7 @@ section {
 }
 .section-title-ul{
   font-size: 17px;
-  border: 2px solid black;
+  border: 5px solid black;
   font-family: 'Pretendard-Regular';
   margin: 10% 20% 20%;
   text-align: left;
@@ -600,24 +600,12 @@ section {
     .detail {
       text-align: left;
       display: inline-block;
-      border: 2px solid black;
       padding: 5px;
-      background-image: url("/assets/img/selfie.jpg");
-      isolation: isolate;
-      position: relative;
-      background-size: cover;
       p {
         font-size: 18px;
       }
     }
-    .detail::after{
-      content: "";
-      background: white;
-      position: absolute;
-      inset : 0;
-      opacity: 0.9;
-      z-index: -1;
-      }
+
   }
 
   abbr{
@@ -628,6 +616,10 @@ section {
   i {
     letter-spacing: 10px;
   }
+  img {
+      border: 5px solid black;
+  }
+
 
 }
 
@@ -808,6 +800,12 @@ section {
   .database{
     box-shadow: inset 0 -15px 0 rgba(0, 100, 0, 0.6);
   }
+  img {
+    width: 30%;
+    margin: 5px;
+    filter : drop-shadow(-8px 0px 10px rgba(90, 90, 90,0.5));
+  }
+
 
 }
 #project1Ul {
