@@ -803,7 +803,7 @@ section {
   img {
     width: 30%;
     margin: 5px;
-    filter : drop-shadow(-8px 0px 10px rgba(90, 90, 90,0.5));
+    filter : drop-shadow(-10px 0px 10px rgba(90, 90, 90,0.5));
   }
 
 
