@@ -529,21 +529,7 @@ section {
     margin-right: 3%;
   }
 }
-.card-ul{
-  box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
-  color: black;
-  border: 5px solid black;
-  font-family: 'Pretendard-Regular';
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 1rem;
-}
-@media (max-width: 991px) {
-  .card-ul{
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-}
+
 
 .section-title h2 {
   margin-bottom: 20px;
@@ -892,17 +878,49 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.yaksutor {
-  position: relative;
-  background-image: url("/assets/img/Yak-background.png");
-  background-size: cover;
+#portfolio {
+  h4 {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Pretendard-Regular';
+  }
+  p {
+    font-size: 18px;
+    mark {
+      background: none;
+      width: 50px;
+    }
+  }
+  .yaksutorImg {
+    width: 50%;
+  }
+  .card-ul{
+    color: black;
+    border: 5px solid black;
+    font-family: 'Pretendard-Regular';
+    margin: 10% 20% 5%;
+    text-align: left;
+    p {
+      display: flex;
+      align-items: center;
+      span.label {
+        display: inline-block;
+        width: 100px;
+      }
+    }
+
+
+
+  }
+  @media (max-width: 991px) {
+    .card-ul{
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+  }
 }
-.yaksutor::before {
-  content: "";
-  opacity: 0.8;
-  position: absolute;
-  background-color: white;
-}
+
+
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
