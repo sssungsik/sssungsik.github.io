@@ -960,6 +960,10 @@ section {
         font-size: 15px;
       }
     }
+    a {
+      border: 2px solid black;
+      padding: 5px;
+    }
 
 
 
