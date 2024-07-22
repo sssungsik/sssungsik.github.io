@@ -879,6 +879,53 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 #portfolio {
+  .projectFlex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    h4 {
+      color: black;
+      font-size: 40px;
+      line-height: 52px;
+      font-weight: 600;
+    }
+    p {
+      color: black;
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 21px;
+    }
+  }
+  .flex-left {
+    text-align: left;
+    .yaksutorBtn {
+      margin-top: 50px;
+      display: block;
+      text-align: center;
+      width: 212px;
+      height: 55px;
+      line-height: 55px;
+      background: transparent linear-gradient(304deg, #e871bb 0, #e64e67 100%) 0 0 no-repeat padding-box;
+      border-radius: 7px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .flex-right {
+    padding: 10% 3%;
+    border-radius: 25px;
+    background: transparent linear-gradient(304deg, pink 0, rgba(255, 216, 222, 0.8) 100%) 0 0 no-repeat padding-box;
+    h3 {
+      font-family: "abchanel-2022", sans-serif;
+      color: white;
+      font-weight: 600;
+      font-size: 50px;
+    }
+  }
   h4 {
     font-weight: bold;
     font-size: 24px;
@@ -905,7 +952,7 @@ section {
       align-items: center;
       span.label {
         display: inline-block;
-        width: 100px;
+        width: 70px;
       }
     }
 
@@ -1485,4 +1532,16 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+.hover-up {
+  -webkit-transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+.hover-up:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
 }
