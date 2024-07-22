@@ -881,8 +881,9 @@ section {
 #portfolio {
   .projectFlex{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    height: 500px;
     h4 {
       color: black;
       font-size: 40px;
@@ -905,7 +906,7 @@ section {
       width: 212px;
       height: 55px;
       line-height: 55px;
-      background: transparent linear-gradient(304deg, #e871bb 0, #e64e67 100%) 0 0 no-repeat padding-box;
+      background: transparent linear-gradient(304deg, rgba(255, 192, 203, 0.81) 0, #e64e67 100%) 0 0 no-repeat padding-box;
       border-radius: 7px;
       color: #fff;
       font-size: 16px;
@@ -944,15 +945,19 @@ section {
   .card-ul{
     color: black;
     border: 5px solid black;
-    font-family: 'Pretendard-Regular';
-    margin: 10% 20% 5%;
+    font-family: 'abchanel-2022', "abchanel-2022", sans-serif;
+    margin: 2% 12% 2% 12%;
     text-align: left;
     p {
       display: flex;
       align-items: center;
       span.label {
         display: inline-block;
-        width: 70px;
+        width: 100px;
+        font-family: 'Pretendard-Regular';
+      }
+      .content {
+        font-size: 15px;
       }
     }
 
