@@ -930,8 +930,11 @@ section {
     justify-content: space-between;
     border: 5px solid black;
     align-items: center;
+    background: url(/assets/img/logoNew.PNG);
+    background-repeat: no-repeat;
+    background-position: 100% 60vh;
     background-size: auto;
-    background: url(/assets/img/logoNew.PNG) no-repeat fixed 100% -1000%;
+    background-attachment: fixed;
   }
   .flex-left {
     text-align: left;
