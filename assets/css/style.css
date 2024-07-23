@@ -1,17 +1,9 @@
-
 @import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Beiruti:wght@200..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/couture');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
-@font-face {
-  font-family: "Cafe24Ssurround";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
+/*          폰트        */
 @font-face {
   font-family: "Pretendard-Regular";
   src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
@@ -19,13 +11,7 @@
   font-weight: 400;
   font-style: normal;
 }
-@font-face {
-  font-family: "Ownglyph_jooreeletter-Rg";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/Ownglyph_jooreeletter-Rg.woff2")
-    format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
+
 @font-face {
   font-family: 'Couture Bold';
   font-style: normal;
@@ -102,7 +88,69 @@
   font-style: italic;
   font-weight: 600
 }
+@font-face {
+  font-family: "chanel-kittithada";
+  font-display: swap;
+  src: url("https://fonts.chanel.com/k/4e101e79ab279d7c52f3b8275d4c66571ce196d2-l.woff2") format("woff2"),url("https://fonts.chanel.com/k/4e101e79ab279d7c52f3b8275d4c66571ce196d2-d.woff") format("woff"),url("https://fonts.chanel.com/k/4e101e79ab279d7c52f3b8275d4c66571ce196d2-a.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400
+}
 
+@font-face {
+  font-family: "chanel-kittithada";
+  font-display: swap;
+  src: url("https://fonts.chanel.com/k/ce096fd31e1f3b28b5bba422ea0caa8ef03739f8-l.woff2") format("woff2"),url("https://fonts.chanel.com/k/ce096fd31e1f3b28b5bba422ea0caa8ef03739f8-d.woff") format("woff"),url("https://fonts.chanel.com/k/ce096fd31e1f3b28b5bba422ea0caa8ef03739f8-a.otf") format("opentype");
+  font-style: italic;
+  font-weight: 400
+}
+
+@font-face {
+  font-family: "chanel-kittithada";
+  font-display: swap;
+  src: url("https://fonts.chanel.com/k/a5ccb3793a16babba4ce3b98602be3c92ea629ee-l.woff2") format("woff2"),url("https://fonts.chanel.com/k/a5ccb3793a16babba4ce3b98602be3c92ea629ee-d.woff") format("woff"),url("https://fonts.chanel.com/k/a5ccb3793a16babba4ce3b98602be3c92ea629ee-a.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700
+}
+
+@font-face {
+  font-family: "chanel-kittithada";
+  font-display: swap;
+  src: url("https://fonts.chanel.com/k/596abea59bf3a0f4ca7a725f3ed7f63a0d7f372a-l.woff2") format("woff2"),url("https://fonts.chanel.com/k/596abea59bf3a0f4ca7a725f3ed7f63a0d7f372a-d.woff") format("woff"),url("https://fonts.chanel.com/k/596abea59bf3a0f4ca7a725f3ed7f63a0d7f372a-a.otf") format("opentype");
+  font-style: italic;
+  font-weight: 700
+}
+
+@font-face {
+  font-family: "abchanel-corpo";
+  font-display: swap;
+  src: url("https://fonts.chanel.com/k/29d2ee826a834270fc144dccbb2359ae46f53c3b-l.woff2") format("woff2"),url("https://fonts.chanel.com/k/29d2ee826a834270fc144dccbb2359ae46f53c3b-d.woff") format("woff"),url("https://fonts.chanel.com/k/29d2ee826a834270fc144dccbb2359ae46f53c3b-a.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400
+}
+
+@font-face {
+  font-family: "abchanel-corpo";
+  font-display: swap;
+  src: url("https://fonts.chanel.com/k/64b14ed9188172fd562480b882a998c1cb8e8eb2-l.woff2") format("woff2"),url("https://fonts.chanel.com/k/64b14ed9188172fd562480b882a998c1cb8e8eb2-d.woff") format("woff"),url("https://fonts.chanel.com/k/64b14ed9188172fd562480b882a998c1cb8e8eb2-a.otf") format("opentype");
+  font-style: normal;
+  font-weight: 300
+}
+
+@font-face {
+  font-family: "abchanel-corpo";
+  font-display: swap;
+  src: url("https://fonts.chanel.com/k/4557ee3c5c7e229667c02c3e802771f4feae8659-l.woff2") format("woff2"),url("https://fonts.chanel.com/k/4557ee3c5c7e229667c02c3e802771f4feae8659-d.woff") format("woff"),url("https://fonts.chanel.com/k/4557ee3c5c7e229667c02c3e802771f4feae8659-a.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600
+}
+
+@font-face {
+  font-family: "abchanel-corpo";
+  font-display: swap;
+  src: url("https://fonts.chanel.com/k/1b32c8a567ffef9b4919d90a39670b0f25b146bc-l.woff2") format("woff2"),url("https://fonts.chanel.com/k/1b32c8a567ffef9b4919d90a39670b0f25b146bc-d.woff") format("woff"),url("https://fonts.chanel.com/k/1b32c8a567ffef9b4919d90a39670b0f25b146bc-a.otf") format("opentype");
+  font-style: normal;
+  font-weight: 200
+}
 
 .font-noto {
   font-family: "Noto Sans KR", sans-serif;
@@ -127,12 +175,10 @@ body {
 }
 
 a {
-  color: #0563bb;
   text-decoration: none;
 }
 
 a:hover {
-  color: #067ded;
   text-decoration: none;
 }
 
@@ -883,6 +929,9 @@ section {
     display: flex;
     justify-content: space-between;
     border: 5px solid black;
+    align-items: center;
+    background-size: auto;
+    background: url(/assets/img/logoNew.PNG) no-repeat fixed 100% -1000%;
   }
   .flex-left {
     text-align: left;
@@ -925,6 +974,25 @@ section {
       color: white;
       font-weight: 600;
       font-size: 50px;
+    }
+  }
+  .flex-right2 {
+
+    a {
+      font-family: 'chanel-kittithada';
+      padding: 10px;
+      border: thin solid black;
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      display: flex;
+      justify-content: space-between;
+      margin: 5px;
+    }
+    a:hover {
+      background: black;
+      color: white;
+      transition: color .5s, background-color .5s, border-color .5s;
     }
   }
   h4 {
