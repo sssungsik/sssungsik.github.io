@@ -879,11 +879,14 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 #portfolio {
-  .projectFlex{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 500px;
+  .portfolio-flex{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid black;
+  }
+  .flex-left {
+    text-align: left;
+
     h4 {
       color: black;
       font-size: 40px;
@@ -896,9 +899,6 @@ section {
       font-weight: 500;
       line-height: 21px;
     }
-  }
-  .flex-left {
-    text-align: left;
     .yaksutorBtn {
       margin-top: 50px;
       display: block;
@@ -917,7 +917,7 @@ section {
     }
   }
   .flex-right {
-    padding: 10% 3%;
+    padding: 25% 0;
     border-radius: 25px;
     background: transparent linear-gradient(304deg, pink 0, rgba(255, 216, 222, 0.8) 100%) 0 0 no-repeat padding-box;
     h3 {
@@ -939,40 +939,46 @@ section {
       width: 50px;
     }
   }
-  .yaksutorImg {
-    width: 50%;
-  }
   .card-ul{
     color: black;
-    border: 5px solid black;
-    font-family: 'abchanel-2022', "abchanel-2022", sans-serif;
-    margin: 2% 12% 2% 12%;
-    text-align: left;
     p {
       display: flex;
       align-items: center;
-      span.label {
-        display: inline-block;
-        width: 100px;
-        font-family: 'Pretendard-Regular';
-      }
-      .content {
-        font-size: 15px;
-      }
     }
-    a {
-      border: 2px solid black;
-      padding: 5px;
+    p::before {
+      content: '-';
+      margin-right: 0.1em;
     }
-
-
-
+    p span{
+      font-family: 'Pretendard-Regular', sans-serif;
+      font-size: 15px;
+      text-align: left;
+    }
+    .label {
+      font-family: 'abchanel-2022', "abchanel-2022", sans-serif;
+      flex-basis: 100px; /* Adjust this width as needed */
+      text-align: left;
+      font-size: 14px;
+    }
   }
   @media (max-width: 991px) {
     .card-ul{
       margin-left: 3%;
       margin-right: 3%;
     }
+  }
+  .portfolio-wrap {
+    h4{
+      color: black;
+      background: rgba(255, 255, 255, 0.5);
+    }
+    p {
+      text-align: left;
+      color: white;
+      background: rgba(0,0,0,.6);
+    }
+
+
   }
 }
 
@@ -1023,7 +1029,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.1);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1041,7 +1047,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  text-align: center;
+  text-align: left;
   z-index: 3;
   transition: all ease-in-out 0.3s;
   display: flex;
@@ -1058,8 +1064,6 @@ section {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #d7dce1;
-  border-left: 3px solid #d7dce1;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -1087,7 +1091,6 @@ section {
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #45505b;
   font-size: 14px;
-  text-transform: uppercase;
   padding: 0;
   margin: 0;
 }
