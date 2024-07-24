@@ -930,11 +930,6 @@ section {
     justify-content: space-between;
     border: 5px solid black;
     align-items: center;
-    background: url(/assets/img/logoNew.PNG);
-    background-repeat: no-repeat;
-    background-position: 100% 60vh;
-    background-size: auto;
-    background-attachment: fixed;
   }
   .flex-left {
     text-align: left;
@@ -970,10 +965,9 @@ section {
   }
   .flex-right {
     padding: 25% 0;
-    border-radius: 25px;
     background: transparent linear-gradient(304deg, pink 0, rgba(255, 216, 222, 0.8) 100%) 0 0 no-repeat padding-box;
     h3 {
-      font-family: "abchanel-2022", sans-serif;
+      font-family: 'ABChanel Corpo Regular';
       color: white;
       font-weight: 600;
       font-size: 50px;
@@ -998,6 +992,18 @@ section {
       transition: color .5s, background-color .5s, border-color .5s;
     }
   }
+  .projectDetail {
+    th {
+      font-weight: 500;
+      font-family: 'abchanel-2022', sans-serif;
+      font-size: 17px;
+    }
+    td {
+      padding-left: 15px;
+      font-family: 'Pretendard-Regular', sans-serif;
+      font-size: 16px;
+    }
+  }
   h4 {
     font-weight: bold;
     font-size: 24px;
@@ -1008,34 +1014,6 @@ section {
     mark {
       background: none;
       width: 50px;
-    }
-  }
-  .card-ul{
-    color: black;
-    p {
-      display: flex;
-      align-items: center;
-    }
-    p::before {
-      content: '-';
-      margin-right: 0.1em;
-    }
-    p span{
-      font-family: 'Pretendard-Regular', sans-serif;
-      font-size: 15px;
-      text-align: left;
-    }
-    .label {
-      font-family: 'abchanel-2022', "abchanel-2022", sans-serif;
-      flex-basis: 100px; /* Adjust this width as needed */
-      text-align: left;
-      font-size: 14px;
-    }
-  }
-  @media (max-width: 991px) {
-    .card-ul{
-      margin-left: 3%;
-      margin-right: 3%;
     }
   }
   .portfolio-wrap {
