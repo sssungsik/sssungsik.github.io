@@ -962,6 +962,20 @@ section {
       align-items: center;
       justify-content: center;
     }
+    .yaksutorBtn2 {
+      margin-top: 50px;
+      display: block;
+      text-align: center;
+      width: 212px;
+      height: 55px;
+      line-height: 55px;
+      border:  thin solid black;
+      font-size: 16px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
   .flex-right {
     padding: 25% 0;
