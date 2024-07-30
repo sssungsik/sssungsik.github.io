@@ -963,6 +963,7 @@ section {
       justify-content: center;
     }
     .yaksutorBtn2 {
+      border-radius: 0;
       margin-top: 50px;
       display: block;
       text-align: center;
@@ -975,6 +976,11 @@ section {
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+    .yaksutorBtn2:hover {
+      background: black;
+      color: white;
+      transition: color .5s, background-color .5s, border-color .5s;
     }
   }
   .flex-right {
