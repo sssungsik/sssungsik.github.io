@@ -996,6 +996,7 @@ section {
   .flex-right2 {
 
     a {
+      width: 200px;
       font-family: 'chanel-kittithada';
       padding: 10px;
       border: thin solid black;
