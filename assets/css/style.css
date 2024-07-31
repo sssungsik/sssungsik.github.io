@@ -1064,6 +1064,7 @@ section {
     }
   }
   .portfolio-wrap {
+    margin: 25px;
     h4{
       color: black;
       background: white;
