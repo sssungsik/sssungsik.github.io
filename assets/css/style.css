@@ -1477,6 +1477,7 @@ section {
 --------------------------------------------------------------*/
 #contact {
   .contact-btn {
+    padding-left: 0;
     margin: auto;
     text-align: center;
     img {
