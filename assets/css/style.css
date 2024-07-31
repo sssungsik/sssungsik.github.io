@@ -437,6 +437,11 @@ h2 i {
   background-color: white;
   
   position: relative;
+  h2 {
+    margin: 0;
+    color: rgba(255,255,255,.9);
+    font-size: 200px;
+  }
 }
 
 
@@ -1061,12 +1066,20 @@ section {
   .portfolio-wrap {
     h4{
       color: black;
-      background: rgba(255, 255, 255, 0.5);
+      background: white;
+      padding: 10px;
+      border: thin solid black;
     }
-    p {
-      text-align: left;
-      color: white;
-      background: rgba(0,0,0,.6);
+    .text-start {
+      border: thin solid black;
+      p {
+        text-align: left;
+        color: black;
+        background: white;
+        padding: 10px;
+
+      }
+
     }
 
 
@@ -1186,12 +1199,16 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
+  margin-top: 10px;
   text-align: center;
   z-index: 4;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  background: rgba(0,0,0,.6);
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -1292,6 +1309,33 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+#services {
+  height: 100vh;
+  background: black;
+  h3 {
+    font-family: 'Pretendard-Regular', sans-serif;
+  }
+
+  h2,h2::after,p,h3,li,ul {
+    color: white;
+    border-color: white;
+    list-style: none;
+  }
+  .education-btn {
+    a {
+      margin: 10px;
+      border: thin solid white;
+      padding: 10px;
+      color: white;
+    }
+    a:hover {
+      background: white;
+      color: black;
+      transition: color .5s, background-color .5s, border-color .5s;
+    }
+  }
+}
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -1431,6 +1475,18 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact {
+  .contact-btn {
+    margin: auto;
+    text-align: center;
+    img {
+      margin: 20px;
+      width: 30%;
+      filter: drop-shadow(-10px 0px 10px rgba(90, 90, 90, 0.5));
+    }
+  }
+
+}
 .contact .info {
   width: 100%;
   background: #fff;
@@ -1566,14 +1622,31 @@ section {
   }
 }
 
+
+
+#phoneModal {
+  .modal-content {
+    border: 5px solid black;
+    border-radius: 0;
+    input {
+      font-size: 25px;
+      text-align: center;
+      margin: 0;
+      border: none;
+      padding: 10px;
+    }
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
 #footer {
-  background: black;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-  color: white;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  color: black;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
