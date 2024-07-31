@@ -1065,7 +1065,7 @@ section {
   }
   .portfolio-wrap {
     margin: 25px;
-    h4{
+    h4 {
       color: black;
       background: white;
       padding: 10px;
@@ -1073,12 +1073,12 @@ section {
     }
     .text-start {
       border: thin solid black;
+      padding: 5px;
+      background: white;
       p {
+        font-size: 15px;
         text-align: left;
         color: black;
-        background: white;
-        padding: 10px;
-
       }
 
     }
