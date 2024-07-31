@@ -568,6 +568,7 @@ section {
   font-family: 'Pretendard-Regular';
   margin: 10% 20% 20%;
   text-align: left;
+
 }
 @media (max-width: 991px) {
   .section-title-ul{
@@ -575,7 +576,26 @@ section {
     margin-right: 3%;
   }
 }
-
+.introduce {
+  margin-top: 45px;
+  .introTitle {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    a {
+      margin-bottom: 20px;
+      padding: 10px;
+      background: rgba(0,0,0,0.03);
+      color: black;
+      cursor: pointer;
+    }
+    a:hover {
+      background: black;
+      color: white;
+      transition: color .5s, background-color .5s, border-color .5s;
+    }
+  }
+}
 
 .section-title h2 {
   margin-bottom: 20px;
@@ -651,6 +671,7 @@ section {
   img {
       border: 5px solid black;
   }
+
 
 
 }
