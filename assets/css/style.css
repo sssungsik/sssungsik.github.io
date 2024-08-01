@@ -412,7 +412,7 @@ h2 i {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: black;
 }
 
 .mobile-nav-active {
@@ -425,7 +425,7 @@ h2 i {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #0563bb;
+  background-color: black;
 }
 
 /*--------------------------------------------------------------
@@ -973,40 +973,44 @@ section {
       line-height: 21px;
     }
     .yaksutorBtn {
+      border-radius: 0;
       margin-top: 50px;
       display: block;
       text-align: center;
-      width: 212px;
-      height: 55px;
-      line-height: 55px;
-      background: transparent linear-gradient(304deg, rgba(255, 192, 203, 0.81) 0, #e64e67 100%) 0 0 no-repeat padding-box;
-      border-radius: 7px;
-      color: #fff;
       font-size: 16px;
       font-weight: 600;
+      padding: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
+      background: black;
+      color: white;
+      transition: background 0.5s ease-in-out; /* 배경 전환 애니메이션 */
+    }
+    .yaksutorBtn:hover {
+      background-color: #b02a37;
+      color: white;
+      transition: background 0.5s ease-in-out, color .5s, background-color .5s, border-color .5s;
     }
     .yaksutorBtn2 {
       border-radius: 0;
       margin-top: 50px;
       display: block;
       text-align: center;
-      width: 212px;
-      height: 55px;
-      line-height: 55px;
-      border:  thin solid black;
       font-size: 16px;
       font-weight: 600;
+      padding: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
-    }
-    .yaksutorBtn2:hover {
       background: black;
       color: white;
-      transition: color .5s, background-color .5s, border-color .5s;
+      transition: background 0.5s ease-in-out; /* 배경 전환 애니메이션 */
+    }
+    .yaksutorBtn2:hover {
+      background-color: pink;
+      color: white;
+      transition: background 0.5s ease-in-out, color .5s, background-color .5s, border-color .5s;
     }
   }
   .flex-right {
@@ -1022,8 +1026,7 @@ section {
   .flex-right2 {
 
     a {
-      width: 200px;
-      font-family: 'chanel-kittithada';
+      font-family: 'chanel-kittithada', sans-serif;
       padding: 10px;
       border: thin solid black;
       text-decoration: none;
@@ -1032,6 +1035,7 @@ section {
       display: flex;
       justify-content: space-between;
       margin: 5px;
+      transition: color .5s, background-color .5s, border-color .5s;
     }
     a:hover {
       background: black;
@@ -1328,11 +1332,12 @@ section {
       margin: 10px;
       border: thin solid white;
       padding: 10px;
-      color: white;
-    }
-    a:hover {
       background: white;
       color: black;
+    }
+    a:hover {
+      background: black;
+      color: white;
       transition: color .5s, background-color .5s, border-color .5s;
     }
   }
@@ -1477,6 +1482,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 #contact {
+  height: 80vh;
   .contact-btn {
     padding-left: 0;
     margin: auto;
@@ -1646,6 +1652,7 @@ section {
 --------------------------------------------------------------*/
 
 #footer {
+  height: 20vh;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
   color: black;
