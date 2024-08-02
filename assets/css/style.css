@@ -35,26 +35,26 @@
 }
 @font-face {
   font-family: "abchanel-2022";
-  src: url("https://fonts.chanel.com/k/ABChanel2022-ExtraLight.woff2") format("woff2"),url("https://fonts.chanel.com/k/ABChanel2022-ExtraLight.woff") format("woff"),url("https://fonts.chanel.com/k/ABChanel2022-ExtraLight.ttf") format("ttf");
+  src: local('abchanel-2022'), url('ABChanel2022-ExtraLight.woff2') format('woff2'),url("ABChanel2022-ExtraLight.woff") format("woff"),url("ABChanel2022-ExtraLight.ttf") format("ttf");
   font-style: normal;
   font-weight: 200
 }
 
 @font-face {
   font-family: "abchanel-2022";
-  src: url("https://fonts.chanel.com/k/ABChanel2022-Light.woff2") format("woff2"),url("https://fonts.chanel.com/k/ABChanel2022-Light.woff") format("woff"),url("https://fonts.chanel.com/k/ABChanel2022-Light.ttf") format("ttf");
+  src: local('abchanel-2022'), url('ABChanel2022-Light.woff2') format("woff2"),url('ABChanel2022-Light.woff') format("woff"),url('ABChanel2022-Light.ttf') format("ttf");
   font-style: normal;
   font-weight: 300
 }
 @font-face {
   font-family: "abchanel-2022";
-  src: url("https://fonts.chanel.com/k/ABChanel2022-Regular.woff2") format("woff2"),url("https://fonts.chanel.com/k/ABChanel2022-Regular.woff") format("woff"),url("https://fonts.chanel.com/k/ABChanel2022-Regular.ttf") format("ttf");
+  src: local('abchanel-2022'), url('ABChanel2022-Regular.woff2') format("woff2"),url('ABChanel2022-Regular.woff') format("woff"),url('ABChanel2022-Regular.ttf') format("ttf");
   font-style: normal;
   font-weight: 400
 }
 @font-face {
   font-family: "abchanel-2022";
-  src: url("https://fonts.chanel.com/k/ABChanel2022-SemiBold.woff2") format("woff2"),url("https://fonts.chanel.com/k/ABChanel2022-SemiBold.woff") format("woff"),url("https://fonts.chanel.com/k/ABChanel2022-SemiBold.ttf") format("ttf");
+  src: local('abchanel-2022'), url('ABChanel2022-SemiBold.woff2') format("woff2"),url('ABChanel2022-SemiBold.woff') format("woff"),url('ABChanel2022-SemiBold.ttf') format("ttf");
   font-style: normal;
   font-weight: 600
 }
