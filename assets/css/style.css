@@ -1484,14 +1484,14 @@ section {
 # Contact
 --------------------------------------------------------------*/
 #contact {
-  height: 90vh;
+  height: 100vh;
   .contact-btn {
     padding-left: 0;
     margin: auto;
     text-align: center;
     img {
-      margin: 20px;
-      width: 30%;
+      margin: 3%;
+      width: 15%;
       filter: drop-shadow(-10px 0px 10px rgba(90, 90, 90, 0.5));
     }
   }
@@ -1676,7 +1676,7 @@ section {
 }
 
 #footer h3 {
-  font-size: 30px;
+  font-size: 1rem;
   font-weight: 600;
   font-family: "ABChanel Corpo Regular", sans-serif;
 }
