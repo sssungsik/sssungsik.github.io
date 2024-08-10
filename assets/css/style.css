@@ -905,6 +905,17 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 #portfolio {
+  .img-fluid {
+    object-fit: contain;
+    height: 350px;
+  }
+  .portfolio-introduce {
+    margin: 20px;
+    p {
+      color: black;
+      font-size: 16px;
+    }
+  }
   .portfolio-flex{
     display: flex;
     justify-content: space-between;
