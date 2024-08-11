@@ -933,6 +933,8 @@ section {
     }
     .modal-flex{
       display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
     .modal-header-flex {
       display: flex;
