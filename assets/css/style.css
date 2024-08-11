@@ -547,7 +547,7 @@ section {
     a {
       margin-bottom: 20px;
       padding: 10px;
-      background: rgba(0,0,0,0.03);
+      border-bottom: 1px solid;
       color: black;
       cursor: pointer;
     }
@@ -905,6 +905,22 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 #portfolio {
+  .project-modal {
+    background: black;
+    color: white;
+    p {
+      color: white !important;
+    }
+    h1,h3,p,li {
+      font-family: 'Pretendard-Regular', sans-serif;
+    }
+    .bi-lightbulb-fill {
+      filter: drop-shadow(0px 0px 5px yellow);
+    }
+    .bi-person-heart {
+      filter: drop-shadow(0px 0px 5px red);
+    }
+  }
   .img-fluid {
     object-fit: contain;
     height: 350px;
@@ -921,6 +937,7 @@ section {
     justify-content: space-between;
     border: 5px solid black;
     align-items: center;
+    flex-wrap: wrap;
   }
   .flex-left {
     text-align: left;
@@ -1034,6 +1051,7 @@ section {
   }
   .portfolio-wrap {
     margin: 25px;
+    text-align: center;
     h4 {
       color: black;
       background: white;
@@ -1054,6 +1072,30 @@ section {
 
 
   }
+  .difficult {
+    margin: 15px;
+    a {
+      position: relative;
+    }
+    .difficult-btn {
+      padding: 10px;
+      color: black;
+    }
+    .difficult-btn::after{
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px; /* 밑줄의 두께 */
+      background-color: #000; /* 밑줄의 색상 */
+      transition: width 0.3s ease; /* 애니메이션 속도와 효과 설정 */
+    }
+    .difficult-btn:hover::after{
+      width: 100%;
+    }
+  }
+
 }
 
 
@@ -1094,13 +1136,13 @@ section {
 }
 
 .portfolio .portfolio-wrap {
-  transition: 0.3s;
+  transition: 0.5s;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+/*.portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.1);
   position: absolute;
@@ -1111,7 +1153,7 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
-}
+}*/
 
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
@@ -1149,8 +1191,6 @@ section {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #d7dce1;
-  border-right: 3px solid #d7dce1;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -1188,6 +1228,11 @@ section {
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #148af9;
 }
+.portfolio .portfolio-wrap:hover {
+ filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.3));
+
+}
+
 
 .portfolio .portfolio-wrap:hover::before {
   top: 0;

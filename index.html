@@ -230,7 +230,55 @@
               <p>기간 2024.04 ~ 2024.07</p>
               <p>인원 3 명</p>
               <a href="http://yaksutor.duckdns.org" class="btn yaksutorBtn2" target="_blank">바로가기</a>
+              <div class="difficult">
+                <a href="#" class="difficult-btn" data-bs-toggle="modal" data-bs-target="#yak-modal">프로젝트 요약<i class="bi bi-chevron-right"></i></a>
+                <a class="difficult-btn">어려웠던 점<i class="bi bi-chevron-right"></i></a>
+              </div>
+              <!-- 모달  -->
+              <div class="modal fade" id="yak-modal" tabindex="-1" aria-labelledby="yak-modalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content project-modal">
+                    <div class="modal-body">
+                      <h1>프로젝트 요약</h1>
+                      <br>
+                      <h3><i class="bi bi-lightbulb-fill"></i> 개발 목적</h3>
+                      <ul>
+                        <li>재고 관리 효율화 - 재고 수준 실시간 추적, 품목의 부족 및 과다를 방지, 효율적 재고 회전 유지 </li>
+                        <li>발주 프로세스 간편화 -  자동화된 프로세스를 통한 주문서 작성, 납품업체 간 소통, 주문 승인을 간편하게 처리</li>
+                        <li>비용 절감 및 수익성 향상 -  불필요한 재고 비용 절감 및 시간 단축, 약국 운영 효율성을 향상</li>
+                      </ul>
+                      <div class="flex-lg-wrap">
+                      <h3><i class="bi bi-person-heart"></i> 담당 역할</h3>
+                      <ul>
+                        <li>메인화면</li>
+                        <li>커뮤니티 기능</li>
+                        <li>1:1문의 기능</li>
+                        <li>공지사항 기능</li>
+                        <li>자주하는 질문 기능</li>
+                        <li>장바구니 기능</li>
+                        <li>주문하기 기능</li>
+                        <li>약국 사용자 페이지</li>
+                        <li>Github Readme 작성</li>
+                        <li>fragment 작성</li>
+                        <li>ERD작성</li>
+                        <li>URI 매핑</li>
+                        <li>화면 경로</li>
+                        <li>프로세스흐름도작성</li>
+                        <li>사이트맵작성</li>
+                        <li>기능정의서 작성</li>
+                        <li>데이터사전 작성</li>
+                        <li>완료 보고서 작성</li>
+
+                      </ul>
+
+                      <h3><i class="bi bi-calendar-date"></i> 개발 기간</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+
               <div class="flex-right2">
                 <a href="https://github.com/ksmart51th-team1/ks51team01" target="_blank"> <i class="bi bi-github"></i> GITHUB <i class="bi bi-chevron-right"></i></a>
                 <a  href="assets/img/Yak-3.png" data-gallery="portfolioGallery"
@@ -278,6 +326,7 @@
                     <td>카카오결제 / 다음주소</td>
                   </tr>
                 </table>
+
               </div>
               <div class="col-lg-5 pt-4">
 
@@ -291,16 +340,10 @@
         </div>
           <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img src="assets/img/Yak_index.png" class="img-fluid" alt="" />
-                <div class="portfolio-info">
-                  <h4>메인화면(index)</h4>
-                  <div class="portfolio-links">
-                    <a href="assets/img/yaksutor/index.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                      <i class="bi bi-arrows-fullscreen"></i>
-                    </a>
-                  </div>
-                </div>
+              <div class="portfolio-wrap hover-up">
+                <a href="assets/img/yaksutor/index.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <img src="assets/img/Yak_index.png" class="img-fluid" alt="" />
+                </a>
               </div>
               <div class="portfolio-introduce">
                 <p>- 메인 페이지</p>
@@ -308,16 +351,10 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img src="assets/img/yaksutor/Umain.png" class="img-fluid" alt="" />
-                <div class="portfolio-info">
-                  <h4>약사 메인화면</h4>
-                  <div class="portfolio-links">
-                    <a href="assets/img/yaksutor/Umain.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                      <i class="bi bi-arrows-fullscreen"></i>
-                    </a>
-                  </div>
-                </div>
+              <div class="portfolio-wrap hover-up">
+                <a href="assets/img/yaksutor/Umain.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <img src="assets/img/yaksutor/Umain.png" class="img-fluid" alt="" />
+                </a>
               </div>
               <div class="portfolio-introduce">
                 <p>- 약사 페이지</p>
@@ -325,33 +362,21 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img src="assets/img/yaksutor/sMain.png" class="img-fluid" alt="" />
-                <div class="portfolio-info">
-                  <h4>납품업체 메인화면</h4>
-                  <div class="portfolio-links">
-                    <a href="assets/img/yaksutor/sMain.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                      <i class="bi bi-arrows-fullscreen"></i>
-                    </a>
-                  </div>
-                </div>
+              <div class="portfolio-wrap hover-up">
+                <a href="assets/img/yaksutor/sMain.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <img src="assets/img/yaksutor/sMain.png" class="img-fluid" alt="" />
+                </a>
               </div>
               <div class="portfolio-introduce">
                 <p>- 납품업체 페이지</p>
                 <p>- 약품/주문/반품/배송 관리, 커뮤니티, 고객센터</p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 portfolio-item filter-app hover-up">
-              <div class="portfolio-wrap">
-                <img src="assets/img/yaksutor/aMain.png" class="img-fluid" alt="" />
-                <div class="portfolio-info">
-                  <h4>관리자 메인화면</h4>
-                  <div class="portfolio-links">
-                    <a href="assets/img/yaksutor/aMain.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                      <i class="bi bi-arrows-fullscreen"></i>
-                    </a>
-                  </div>
-                </div>
+            <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap hover-up">
+                <a href="assets/img/yaksutor/aMain.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <img src="assets/img/yaksutor/aMain.png" class="img-fluid" alt="" />
+                </a>
               </div>
               <div class="portfolio-introduce">
                 <p>- 관리자 페이지</p>
