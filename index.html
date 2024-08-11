@@ -225,21 +225,23 @@
             <h2>PROJECTS</h2>
             <div class="portfolio-flex p-3">
             <div class="flex-left">
-              <h4>약수터 <i class="bi bi-capsule"></i></h4>
-              <p>약국 의약품 발주 및 재고관리 서비스</p>
+              <h4 class="yak-h4">약수터 <i class="bi bi-capsule"></i></h4>
+              <p>주제 약국 의약품 발주 및 재고관리 서비스</p>
               <p>기간 2024.04 ~ 2024.07</p>
               <p>인원 3 명</p>
               <a href="http://yaksutor.duckdns.org" class="btn yaksutorBtn2" target="_blank">바로가기</a>
               <div class="difficult">
                 <a href="#" class="difficult-btn" data-bs-toggle="modal" data-bs-target="#yak-modal">프로젝트 요약<i class="bi bi-chevron-right"></i></a>
-                <a class="difficult-btn">어려웠던 점<i class="bi bi-chevron-right"></i></a>
               </div>
-              <!-- 모달  -->
+              <!-- 프로젝트 요약 모달  -->
               <div class="modal fade" id="yak-modal" tabindex="-1" aria-labelledby="yak-modalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                   <div class="modal-content project-modal">
                     <div class="modal-body">
-                      <h1>프로젝트 요약</h1>
+                      <div class="modal-header-flex">
+                        <h1>프로젝트 요약</h1>
+                        <h1 data-bs-dismiss="modal" style="cursor: pointer"><i class="bi bi-x"></i></h1>
+                      </div>
                       <br>
                       <h3><i class="bi bi-lightbulb-fill"></i> 개발 목적</h3>
                       <ul>
@@ -288,7 +290,6 @@
                 </div>
               </div>
             </div>
-
               <div class="flex-right2">
                 <a href="https://github.com/ksmart51th-team1/ks51team01" target="_blank"> <i class="bi bi-github"></i> GITHUB <i class="bi bi-chevron-right"></i></a>
                 <a  href="assets/img/Yak-3.png" data-gallery="portfolioGallery"

@@ -908,11 +908,19 @@ section {
   .project-modal {
     background: black;
     color: white;
-    p {
-      color: white !important;
-    }
-    h1,h3,p,li {
+    li {
       font-family: 'Pretendard-Regular', sans-serif;
+      color: rgba(190,190,190);
+    }
+    h1 {
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: 600;
+      color: white;
+    }
+    h3{
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 500;
+      color: white;
     }
     .bi-lightbulb-fill {
       filter: drop-shadow(0px 0px 5px yellow);
@@ -920,9 +928,18 @@ section {
     .bi-person-heart {
       filter: drop-shadow(0px 0px 5px red);
     }
+    .bi-calendar-date {
+      filter: drop-shadow(0px 0px 5px blue);
+    }
     .modal-flex{
       display: flex;
     }
+    .modal-header-flex {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: thin solid #2b2f32;
+    }
+
   }
   .img-fluid {
     object-fit: contain;
@@ -944,12 +961,15 @@ section {
   }
   .flex-left {
     text-align: left;
-
+    .yak-h4{
+      box-shadow: inset 0 -5px 0 rgba(255, 192, 203, 0.5);
+    }
     h4 {
       color: black;
       font-size: 40px;
       line-height: 52px;
       font-weight: 600;
+      font-family: "Noto Sans KR", sans-serif;
     }
     p {
       color: black;
@@ -1076,9 +1096,10 @@ section {
 
   }
   .difficult {
-    margin: 15px;
     a {
+      display: flex;
       position: relative;
+      justify-content: center;
     }
     .difficult-btn {
       padding: 10px;
