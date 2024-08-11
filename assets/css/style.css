@@ -920,6 +920,9 @@ section {
     .bi-person-heart {
       filter: drop-shadow(0px 0px 5px red);
     }
+    .modal-flex{
+      display: flex;
+    }
   }
   .img-fluid {
     object-fit: contain;
