@@ -966,6 +966,10 @@ section {
     .yak-h4{
       box-shadow: inset 0 -5px 0 rgba(255, 192, 203, 0.5);
     }
+    .tmb-h4 {
+      box-shadow: inset 0 -5px 0 rgba(144, 150, 255, 0.5);
+    }
+
     h4 {
       color: black;
       font-size: 40px;
