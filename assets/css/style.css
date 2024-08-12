@@ -609,6 +609,12 @@ section {
     color:black;
     transition: 0.5s;
   }
+  .download-btn {
+    background-color: #ececec;
+    color: black;
+    font-size: 14px;
+    padding: 4px;
+  }
   .content {
     text-align: center;
     .detail {
