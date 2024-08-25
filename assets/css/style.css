@@ -954,7 +954,7 @@ section {
     height: 350px;
   }
   .portfolio-introduce {
-    margin: 20px;
+    text-align: center;
     p {
       color: black;
       font-size: 16px;
@@ -973,7 +973,10 @@ section {
       box-shadow: inset 0 -5px 0 rgba(255, 192, 203, 0.5);
     }
     .tmb-h4 {
-      box-shadow: inset 0 -5px 0 rgba(144, 150, 255, 0.5);
+      box-shadow: inset 0 -5px 0 rgba(255, 236, 11, 0.5);
+    }
+    .vwt-h4 {
+      box-shadow: inset 0 -5px 0 rgba(66, 76, 255, 0.5);
     }
 
     h4 {
@@ -989,6 +992,28 @@ section {
       font-weight: 500;
       line-height: 21px;
     }
+
+    .weatherBtn {
+      border-radius: 0;
+      margin-top: 50px;
+      display: block;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: black;
+      color: white;
+      transition: background 0.5s ease-in-out; /* 배경 전환 애니메이션 */
+    }
+    .weatherBtn:hover {
+      background-color: #0057b8;
+      color: white;
+      transition: background 0.5s ease-in-out, color .5s, background-color .5s, border-color .5s;
+    }
+
     .yaksutorBtn {
       border-radius: 0;
       margin-top: 50px;
@@ -1028,6 +1053,15 @@ section {
       background-color: pink;
       color: white;
       transition: background 0.5s ease-in-out, color .5s, background-color .5s, border-color .5s;
+    }
+  }
+  .weather-logo {
+    padding: 25% 0;
+    h3 {
+      font-family: 'ABChanel Corpo Regular';
+      color: black;
+      font-weight: 600;
+      font-size: 50px;
     }
   }
   .flex-right {
@@ -1264,10 +1298,7 @@ section {
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #148af9;
 }
-.portfolio .portfolio-wrap:hover {
- filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.3));
 
-}
 
 
 .portfolio .portfolio-wrap:hover::before {
