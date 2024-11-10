@@ -79,9 +79,9 @@
       </video>
       </div>
       <div class="container" data-aos="zoom-in" data-aos-delay="100">
-        <img src="./assets/img/me.JPEG" class="me" />
+
         <h1>최성식</h1>
-        <p>I'm <span class="typed" data-typed-items="Developer., 개발자."></span></p>
+        <p><span class="typed" data-typed-items="CHOI SUNGSIK,Frontend-Developer."></span></p>
 
       </div>
     </section>
@@ -122,7 +122,7 @@
                   <p><i class="bi bi-person-vcard-fill"></i> 컴퓨터활용능력 1급</p>
                   <p><i class="bi bi-translate"></i> OPIC-IM / Gtelp-Lv2</p>
                   <p><i class="bi bi-file-earmark-pdf-fill"></i> <a href="assets/doc/최성식_이력서.pdf" target="_blank">최성식_이력서.pdf</a>&emsp;<a class="download-btn" href="assets/doc/최성식_이력서.pdf" download>다운로드</a></p>
-                  <p><i class="bi bi-file-earmark-pdf-fill"></i> <a href="assets/doc/최성식_이력서_사람인.pdf" target="_blank">최성식_이력서_사람인.pdf</a>&emsp;<a class="download-btn" href="assets/doc/최성식_이력서_사람인.pdf" download>다운로드</a></p>
+                  <p><i class="bi bi-file-earmark-pdf-fill"></i> <a href="assets/doc/최성식%20이력서.docx" target="_blank">최성식_이력서.docx</a>&emsp;<a class="download-btn" href="assets/doc/최성식%20이력서.docx" download>다운로드</a></p>
                 </div>
               </div>
             </div>
@@ -210,14 +210,92 @@
 
       <!--프로젝트 -->
       <section id="portfolio" class="portfolio section-bg">
-        <div class="project-vwt">
+        <div class="project-rtd">
           <div class="container" data-aos="fade-up">
             <div class="section-title">
               <h2>PROJECTS</h2>
 
               <div class="portfolio-flex p-3">
                 <div class="flex-left">
-                  <h4 class="vwt-h4">웨더뷰 <i class="bi bi-cloud-sun-fill"></i></h4>
+                  <h4 class="rtd-h4">메모(React) <i class="bi bi-pencil-fill"></i></h4>
+                  <p>간단한 리액트 메모앱</p>
+                  <p>기간 2024.11 ~ 2024.11</p>
+                  <p>인원 1 명 (개인 프로젝트)</p>
+                  <a href="https://sssungsik.github.io/Todo_react/" class="btn memoBtn" target="_blank">바로가기</a>
+                  <div class="difficult">
+                    <a href="#" class="difficult-btn" data-bs-toggle="modal" data-bs-target="#rtd-modal">프로젝트 요약<i class="bi bi-chevron-right"></i></a>
+                  </div>
+                  <!-- 프로젝트 요약 모달  -->
+                  <div class="modal fade" id="rtd-modal" tabindex="-1" aria-labelledby="rtd-modalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content project-modal">
+                        <div class="modal-body">
+                          <div class="modal-header-flex">
+                            <h1>프로젝트 요약</h1>
+                            <h1 data-bs-dismiss="modal" style="cursor: pointer"><i class="bi bi-x"></i></h1>
+                          </div>
+                          <br>
+                          <h3><i class="bi bi-lightbulb-fill"></i> 개발 목적</h3>
+                          <ul>
+                            <li>리액트 학습</li>
+                          </ul>
+                          <h3>🎯 개발 기획</h3>
+                          <ul>
+                            <li>✅리액트로 Todo앱을 만들어보자.</li>
+                            <li>✅기능이 비슷한 메모앱으로 기획. 아이폰 메모앱을 보며 코딩.</li>
+                            <li>✅메모 추가, 수정, 삭제</li>
+                            <li>✅현재시간 추가</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex-right2">
+
+                  <a href="https://github.com/sssungsik/Todo_react" target="_blank"> <i class="bi bi-github"></i> GITHUB　<i class="bi bi-chevron-right"></i></a>
+                </div>
+              </div>
+
+              <div class="row" style="justify-content: space-between">
+                <div class="col-lg-5 pt-4" style="align-content: center;">
+                  <table class="text-start projectDetail">
+                    <tr>
+                      <th>Language</th>
+                      <td>JavaScript</td>
+                    </tr>
+                    <tr>
+                      <th>Framework</th>
+                      <td>React / Bootstrap Icon</td>
+                    </tr>
+                    <tr>
+                      <th>CI/CD</th>
+                      <td>GitHub Pages</td>
+                    </tr>
+                    <tr>
+                      <th>Tools</th>
+                      <td>VsCode / GitHub </td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="col-lg-5 pt-4">
+                  <div>
+                    <a href="assets/img/rtd/1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                      <img src="assets/img/rtd/1.png" class="img-fluid" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        <div class="project-vwt">
+          <div class="container" data-aos="fade-up">
+            <div class="section-title">
+              <div class="portfolio-flex p-3">
+                <div class="flex-left">
+                  <h4 class="vwt-h4">웨더뷰(Vue.js) <i class="bi bi-cloud-sun-fill"></i></h4>
                   <p>날씨 및 체감온도별 옷차림 서비스</p>
                   <p>기간 2024.08 ~ 2024.08</p>
                   <p>인원 1 명 (개인 프로젝트)</p>
@@ -631,13 +709,6 @@
               </div>
             </div>
           </div><br><br></div>
-
-
-
-
-
-
-
       </section>
       <!-- End Portfolio Section -->
 
@@ -673,7 +744,7 @@
             <a href="tel:010-4991-4441"><img src="assets/img/icons/11.png" class="hover-up"></a>
             <a href="sms:010-4991-4441"><img src="assets/img/icons/12.png" class="hover-up"></a>
             <a onclick="alert('모바일에서만 가능합니다.')"   href="http://qr.kakao.com/talk/YbKUObG4wbdEOav5HrH2JOWt.yw-" target="_blank"><img src="assets/img/icons/10.png" class="hover-up"></a>
-            <a href="https://www.instagram.com/sssungsik/" target="_blank"><img src="assets/img/icons/13.png" class="hover-up"></a>
+            <a href="https://www.instagram.com/login/" target="_blank"><img src="assets/img/icons/13.png" class="hover-up"></a>
           </div>
           <div class="add-links">
             <h3>Additional Links</h3>
