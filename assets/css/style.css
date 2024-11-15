@@ -805,6 +805,23 @@ section {
 #resume {
   background-color: black;
   color: white;
+  abbr{
+    text-decoration: none;
+    position: relative;
+    cursor: default;
+  }
+  abbr[title]:hover::after {
+    content:  attr(title);
+    position: absolute;
+    background: #151515;
+    top:50px;
+    right: 10px;
+    padding: 10px;
+    z-index: 30;
+    border: 1px solid gray;
+    color: floralwhite;
+    transition: all 0.5s;
+  }
   h2, h2::after{
     color: white;
     border-color: white;
