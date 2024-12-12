@@ -125,7 +125,11 @@ body {
   font-family: 'Pretendard-Regular',"Open Sans", sans-serif;
   color: #272829;
 }
-
+/* 이미지 드래그 방지 */
+img {
+  pointer-events: none;
+  user-select: none; /* 이미지에 대한 모든 클릭, 드래그 이벤트 방지 */
+}
 a {
   text-decoration: none;
 }

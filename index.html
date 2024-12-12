@@ -27,6 +27,47 @@
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
+    <script>
+      // 코드가 실행되면 디버깅 중지
+      setInterval(function() {
+        debugger; // 이 코드가 실행되면 브라우저가 일시 중지됨
+      }, 1000);
+    </script>
+    <script>
+      // F12 키를 차단 (Windows 및 Linux에서)
+      document.onkeydown = function(e) {
+        if (e.keyCode == 123) {  // F12 키
+          e.preventDefault();
+          alert("개발자 도구 사용시 24시간 차단됩니다");
+        }
+      }
+
+      // 우클릭 차단
+      document.addEventListener("contextmenu", function(e) {
+        e.preventDefault();
+        alert("우클릭이 비활성화되었습니다.");
+      });
+    </script>
+    <script>
+      // 드래그 방지 함수
+      function preventDrag(e) {
+        e.preventDefault(); // 기본 동작인 드래그를 방지
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+        // 모든 이미지에 대해 드래그 방지
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          img.addEventListener('dragstart', preventDrag);
+        });
+
+        // 드래그 방지할 요소들에 대해 'dragstart' 이벤트를 방지
+        const noDragElements = document.querySelectorAll('.no-drag');
+        noDragElements.forEach(element => {
+          element.addEventListener('dragstart', preventDrag);
+        });
+      });
+    </script>
   </head>
 
   <body>
